@@ -1,0 +1,126 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/centos-7
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/centos-8
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/debian-10
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/debian-11
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/debian-9
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-29
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-30
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-31
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-32
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-33
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-35
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-36
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-37
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/fedora-38
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/rocky-8
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/rocky-9
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/ubuntu-14.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/ubuntu-16.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/ubuntu-18.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/ubuntu-20.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/build/ubuntu-22.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/gui/fedora-30
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /docker/gui/ubuntu-18.04
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: daily
